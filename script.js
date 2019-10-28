@@ -19,7 +19,7 @@ function secret(num) {
   
   if (num === 1) {
     text = 'Pablo Escobar';
-    desText = 'Interferencia';
+    desText = '';
   } else if (num === 2) {
     text = 'Anatoly Dyatlov';
     desText = '';
@@ -41,7 +41,7 @@ function secret(num) {
    function scripting() {
     if (i >= letters.length-1) {
       clearInterval(t);
-      i = 0;
+      mySound.stop();
       var t2 = setInterval(scriptingDes, 200);
     }
     ftext = ftext + letters[i];
