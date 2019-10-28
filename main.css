@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  width: 35vw;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+  /*animation: rotating 5s infinite linear;*/
+}
+
+button:disabled {
+  color: black;
+}
+
+.wrapper {
+  margin-bottom: 20rem;
+  display: block;
+  padding-bottom: 5rem;
+}
+
+.secret {
+  margin-left: 500px;;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+img {
+  height: 20rem;
+  display: none;
+  image-orientation: 60;
+}
+
+#wrapper1 {
+  margin-top: 10rem;
+}
+
+
+/* THA FOOTER */
+footer {
+  margin-top: 8rem;
+  height: 8rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #292c2f;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+  padding: 1rem;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.footer-wrapper {
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+footer small {
+  color: #fff;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.description {
+  background: red;
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 500px;
+  height: 20rem;
+  display: none;-
+}
